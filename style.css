@@ -75,7 +75,7 @@ ul li a {
 
 }
 
-ul li a:hover {
+ a:hover {
     background-color: #2563eb;
     color: black;
 }
