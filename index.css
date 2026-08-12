@@ -12,11 +12,11 @@ body {
 
 }
 
- #About {
+#About {
     font-size: 30px;
     text-align: center;
     margin: 110px;
-}  
+}
 
 #Skills {
     font-size: 40px;
@@ -32,7 +32,16 @@ body {
     font-size: 30px;
 }
 
+ .nav {
+    display: flex;
+    justify-content: right;
+    align-items: right;
 
+    background-color: #1e293b;
+    position: sticky;
+    top: 0;
+     padding: 10px;
+     } 
 
 .nav ul {
     display: flex;

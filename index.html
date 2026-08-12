@@ -7,11 +7,13 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="favimage.ico" rel="icon" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 
 <body>
   <header class="nav">
-   <nav>
+   <nav class="flex justify-end bg-slate-800 sticky top-0 p-4">
     <ul>
       <li> <a href="#Home">Home</a></li>
       <li><a href="#About">About</a></li>
@@ -22,13 +24,15 @@
     </ul>
    </nav>
   </header>
-  <section id="Home">
-    <p>Hi i'm Thansiha <br>Frontend developer <br>
+  <section
+   id="Home"
+   class="flex justify-between items-center mx-20 my-40 text-left">
+    <p class="">Hi i'm Thansiha <br>Frontend developer <br>
       I'm passionate about building clean, responsive,<br>
       and user-friendly websites using HTML and CSS <br>
       Currently learning Responsive Web Design. <br>I love creating clean, modern, and user-friendly websites. <br> </p>
 
-    <div class="home-img">
+    <div class="home-img ">
       <img class="profile-img" src="assets/profile.jpg" alt=""
         width="200px" height="180px">
     </div>
