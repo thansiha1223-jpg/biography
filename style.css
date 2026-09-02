@@ -154,3 +154,16 @@ body {
 h2 {
     font-size: 65px;
 }
+
+.dark {
+    background-color: #0f172a;
+    color: white;
+}
+
+.dark h2 {
+    color: white;
+}
+
+.dark .card {
+    background-color: #334155;
+}
